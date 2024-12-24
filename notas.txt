@@ -1,0 +1,18 @@
+instalar tailwind
+
+en angular.json, buscar zone.js dentro de build y test para eliminarlo
+"polyfills": [
+              "zone.js"
+            ],
+
+"polyfills": [],
+
+
+Configurar un alias, en el tsconfig.json dentro de "compilerOptions" agregar:
+
+"baseUrl": ".",
+"paths": {
+  "@/*": ["src/app/*"]
+},
+
+
